@@ -1,6 +1,39 @@
 #For static seo component use SEO(). It requires  two parameter one is title and another is description.
 #FOR dynamic seo component use DynamicSEO(). It requires two agruments. One for the title and second one is meta which is array of object
 
+###usage
+import {SEO} from "./DyamicSEO";
+
+                            <SEO
+                                title={title`}
+                                meta={[
+                                    {
+                                        property: "og:url",
+                                        content: "url
+                                    },
+
+                                    {
+                                        property: "og:title",
+                                        content: "name"
+                                    },
+                                    {
+                                        property: "og:description",
+                                        content: "description"
+                                    },
+                                    {
+                                        property: "og:image",
+                                        content: "image"|
+                                    },
+                                     {
+                                         property: "fb:app_id",
+                                         content: "fb_app_id"
+                                     }
+                                ]
+                                }
+                            />
+
+
+
 #OpenGraph tags (marked with og:) are crawled by Facebook whenever you share a link through Messenger/ Facebook:
 meta={[
         {
