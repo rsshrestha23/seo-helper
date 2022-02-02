@@ -1,0 +1,28 @@
+{
+  "name": "seo-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsshrestha23/seo-helper.git"
+  },
+  "keywords": [
+    "seo",
+    "react-helmet",
+    "helmet",
+    "react"
+  ],
+  "author": "Rojil Shrestha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsshrestha23/seo-helper/issues"
+  },
+  "homepage": "https://github.com/rsshrestha23/seo-helper#readme",
+  "dependencies": {
+    "react-helmet": "^6.1.0"
+  }
+}
